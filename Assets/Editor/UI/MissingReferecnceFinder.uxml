@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Root" style="flex-grow: 1;">
+        <ui:VisualElement name="ContentSection" style="flex-grow: 1; flex-direction: column; align-items: auto; justify-content: space-between; flex-basis: 80%; background-color: rgba(255, 0, 0, 0); flex-wrap: flex-start; flex-shrink: 0;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" vertical-scroller-visibility="AlwaysVisible" name="MissingAssetsScrollView" style="flex-grow: 1; flex-direction: column; align-items: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ResultSection" style="background-color: rgb(64, 64, 64); flex-grow: 0; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-left-color: rgb(35, 35, 35); border-right-color: rgb(35, 35, 35); border-top-color: rgb(35, 35, 35); border-bottom-color: rgb(35, 35, 35); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; flex-shrink: 0; justify-content: center; align-items: stretch;">
+            <ui:VisualElement name="SearchContainer" style="justify-content: space-between;">
+                <ui:Button text="Start Search" display-tooltip-when-elided="true" name="StartSearchButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; height: 20px; visibility: visible; display: flex;" />
+                <ui:Label text="Total search time:" display-tooltip-when-elided="true" name="SearchTimeLabel" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 0; visibility: visible; display: flex; border-top-width: 0; padding-top: 0; margin-top: 0; flex-shrink: 0; flex-wrap: nowrap; flex-direction: column; align-items: stretch; justify-content: space-around;">
+                <ui:Label text="Assets with missing components" display-tooltip-when-elided="true" name="MissingAssetComponentsLabel" style="overflow: hidden; flex-shrink: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

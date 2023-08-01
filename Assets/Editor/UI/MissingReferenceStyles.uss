@@ -1,0 +1,21 @@
+.unity-object-field__label {
+    flex-shrink: 0;
+    flex-basis: 50%;
+    font-size: 12px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-width: 0;
+    flex-grow: 1;
+    max-width: 125px;
+    white-space: normal;
+}
+
+#AssetItem .unity-foldout--depth-1 {
+    margin-left: 15px;
+}

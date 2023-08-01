@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="MissingReferenceStyles.uss" />
+    <ui:VisualElement name="AssetItem" style="flex-shrink: 0; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(35, 35, 35); border-right-color: rgb(35, 35, 35); border-top-color: rgb(35, 35, 35); border-bottom-color: rgb(35, 35, 35); border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;">
+        <ui:VisualElement name="AssetItem" style="width: auto; height: auto; flex-grow: 0; background-color: rgba(0, 0, 0, 0); padding-top: 0; padding-left: 0; padding-right: 0; padding-bottom: 0;">
+            <ui:VisualElement name="Assetitem-container" style="flex-direction: row; justify-content: space-between; align-items: center; flex-grow: 0; flex-wrap: wrap; flex-basis: auto;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="AssetNameSelectButton" style="flex-grow: 0; flex-basis: 50%; flex-shrink: 0;" />
+                <ui:TextField picking-mode="Ignore" text="AssetPath" readonly="true" name="AssetPathLabel" style="flex-shrink: 1; flex-basis: 50%; flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:Foldout text="Missing components" name="MissingComponentsFoldout" style="flex-wrap: nowrap; flex-direction: column;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

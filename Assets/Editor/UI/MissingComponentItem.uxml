@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="MissingReferenceStyles.uss" />
+    <ui:VisualElement name="MissingComponentItem" class="unity-foldout styleClass" style="flex-direction: column; align-items: stretch; justify-content: space-between; -unity-text-align: middle-left; white-space: normal; flex-grow: 0; padding-left: 0; padding-top: 0; flex-shrink: 0; padding-right: 0; padding-bottom: 0; margin-top: 5px;">
+        <ui:Label text="ComponentName" display-tooltip-when-elided="true" name="MissingComponentNameLabel" style="flex-grow: 0; flex-basis: auto; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 14px; justify-content: space-between; white-space: normal; margin-bottom: 1px; margin-top: 0;" />
+        <ui:Foldout text="Missing references" name="MissingComponentFoldout" class="missing-references-foldout" style="flex-shrink: 0; flex-wrap: wrap; flex-direction: column; flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
